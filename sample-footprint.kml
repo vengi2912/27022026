@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample Building Footprint</name>
+    <Placemark>
+      <name>Rooftop</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.594400,12.971800,0
+              77.594800,12.971800,0
+              77.594800,12.971500,0
+              77.594400,12.971500,0
+              77.594400,12.971800,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

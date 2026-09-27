@@ -1,0 +1,9 @@
+/* BESS module UI additions */
+.system-selection-card{margin-top:16px;padding:16px;border:1px solid rgba(63,184,175,.28);border-radius:14px;background:rgba(255,255,255,.025)}
+.bess-results-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.bess-result-card{padding:12px;border:1px solid rgba(63,184,175,.22);border-radius:11px;background:rgba(255,255,255,.04);min-width:0}
+.bess-result-card small{display:block;color:var(--muted);font-size:.76rem;margin-bottom:5px}
+.bess-result-card b{display:block;font-size:1rem;overflow-wrap:anywhere}
+.bess-empty{padding:13px;border-radius:10px;border:1px dashed rgba(63,184,175,.35);color:var(--muted)}
+@media(max-width:800px){.bess-results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.system-selection-card .form-grid{grid-template-columns:1fr!important}.system-selection-card #bessInputs{grid-column:auto!important}}
+@media(max-width:520px){.bess-results-grid{grid-template-columns:1fr}}

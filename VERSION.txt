@@ -1,0 +1,10 @@
+Solar Rooftop App V15 — TNPDCL Original Bill Format + Solar + BESS
+
+V15 additions:
+- Parser tuned to the supplied TNPDCL/TANGEDCO August 2026 invoice format.
+- Extracts service connection number, consumer name/address, tariff, sanctioned load, meter number, billing cycle/period, invoice/bill dates, due date and bill amount.
+- Reads the TNPDCL Energy Consumption table directly: Final Reading, Initial Reading, MF and Consumption.
+- Uses 410 kWh from the supplied bill's 23027 - 22617 reading row; never derives units from bill amount.
+- Preserves Solar + BESS V14 sizing, 24-hour simulation, tariff engine, PVGIS integration and proposal PDF.
+- Added detailed imported-bill verification summary and mobile-safe styling.
+- Cache-busting updated to v15.
